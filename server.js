@@ -67,6 +67,19 @@ let listings = [
 		isFavorite: false,
 		bookedDate: "",
 	},
+	{
+		id: nanoid(),
+		imgUrl: "https://media.rightmove.co.uk/dir/107k/106931/131764985/106931_11450744_IMG_12_0000_max_476x317.jpeg",
+		bedrooms: 2,
+		price: 160,
+		title: "Modest house, Salim Slem, Beirut",
+		desc: "Cozy residence in the charming neighborhood of Salim Slem, located in the vibrant city of Beirut.",
+		address: "Main street, Salim Slem, Beirut",
+		city: "beirut",
+		isBooked: false,
+		isFavorite: false,
+		bookedDate: "",
+	},
 ];
 
 app.get('/listings', (req, res) => {
